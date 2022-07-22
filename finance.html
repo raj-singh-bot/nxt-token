@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/stylefont.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="common-header topup-navbar">
+            <div class="container">
+                <div class="menu ">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="logo-section">
+                            <a href="home.html"><img src="images/logo-white (2).png" alt="logo" class="img-fluid"></a>
+                        </div>
+                        <div class="menu-bar">
+                            <a href="javascript:void(0)">
+                                <i class="icon-menubar"></i>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+       <!--finance section-->
+       <div class="finance-section">
+           <div class="container">
+            <div class="common-section-header">
+                <div class="topup-header">
+                    <div class="heading">
+                        <h5>Finance</h5>
+                        <span class="para">Sit augue quam aliquet neque diam dolor.</span>
+                    </div>
+                </div>
+                <div class="total-wallet">
+                    <div class="balance">
+                        <div class="title-price">
+                            <p>Financial Wallet</p>
+                        </div>
+                        <div class="title">
+                            <p>$ 3,256</p>
+                        </div>
+                        <div class="more-info-section">
+                            <div class="button-section">
+                                <a href="">More info<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="balance">
+                        <div class="title-price">
+                            <p>Offset Wallet</p>
+                        </div>
+                        <div class="title">
+                            <p>$ 3,256</p>
+                        </div>
+                        <div class="more-info-section">
+                            <div class="button-section">
+                                <a href="">More info<i class="fas fa-angle-right"></i></a>
+                            </div>
+                            <div class="button-section">
+                                <a href="offset-transfer.html">Offset Transfer<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="balance">
+                        <div class="title-price">
+                            <p>Token Wallet</p>
+                        </div>
+                        <div class="title">
+                            <p>$ 3,256</p>
+                        </div>
+                        <div class="more-info-section">
+                            <div class="button-section">
+                                <a href="">More info<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+       </div>
+       <!--finance content-->
+        <div class="finance-content">
+            <div class="container">
+                <div class="col-lg-7 mx-auto">
+                    <div class="heading">
+                        <h6>Transaction History</h6>
+                    </div>
+                    <div class="filter-section">
+                        <div class="title-common">
+                            <p>Sort by:</p>
+                        </div>
+                        <div class="button-section">
+                            <a href="javascript:void(0)" class="rect-btn-common">Date<i class="fas fa-caret-down"></i></a>
+                            <div class="date-selection">
+                                <form action="/action_page.php">
+                                    <input type="date" id="birthday" name="birthday">
+                                </form>
+                                <form action="/action_page.php">
+                                    <input type="date" id="birthday" name="birthday">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="common-select">
+                            <select id="trans-type" class="js-states form-control">
+                                <option>Transaction type</option>
+                                <option>India</option>
+                                <option>Aus</option>
+                                <option>US</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="history-content-section scrollbar" id="style-1">
+                        <div class="single-history">
+                            <div class="history-title">
+                                <div class="title-common">
+                                    <a href="" data-toggle="modal" data-target="#exampleModalCenter1"><p>Deposite</p></a>
+                                </div>
+                                <div class="title-price">
+                                    <p class="red"><img src="images/debit.png" alt="">Debited</p>
+                                </div>
+                            </div>
+                            <div class="heading">
+                                <h6>$ 1000</h6>
+                            </div>
+                            <div class="title-price">
+                                <p>07 Feb, 2022 . 01:35 PM</p>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="title-common">
+                                            <p>Pack</p>
+                                        </div>
+                                        <div class="close-btn">
+                                            <a href="" data-dismiss="modal"><i class="fas fa-times"></i></a>
+                                        </div>
+                                    </div>
+                                    <ul class="modal-list">
+                                        <li>
+                                            <div class="title-price">
+                                                <p>package name:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b>abc</b></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title-price">
+                                                <p>package Amount:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b>$100</b></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title-price">
+                                                <p>Status:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b>Approved</b></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title-price">
+                                                <p>Requested Date:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b>1-1-2022</b></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title-price">
+                                                <p>Approved Date:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b>1-1-2022</b></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title-price">
+                                                <p>Transaction Id:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b>gdufsgfoihf</b></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title-price">
+                                                <p>Transaction Date:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b>1-1-2022</b></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title-price">
+                                                <p>Receipt:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b></b></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title-price">
+                                                <p>Use Wallet:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b>Yes</b></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title-price">
+                                                <p>WAllet-Amount:</p>
+                                            </div>
+                                            <div class="title-common">
+                                                <p><b>$100</b></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-history">
+                            <div class="history-title">
+                                <div class="title-common">
+                                    <p>Withdraw</p>
+                                </div>
+                                <div class="title-price">
+                                    <p class="red"><img src="images/debit.png" alt="">Debited</p>
+                                </div>
+                            </div>
+                            <div class="heading">
+                                <h6>$ 1000</h6>
+                            </div>
+                            <div class="title-price">
+                                <p>07 Feb, 2022 . 01:35 PM</p>
+                            </div>
+                        </div>
+                        <div class="single-history">
+                            <div class="history-title">
+                                <div class="title-common">
+                                    <p>Purchase Topup Plan</p>
+                                </div>
+                                <div class="title-price">
+                                    <p class="darkgreen"><img src="images/credit.png" alt=""> Credited</p>
+                                </div>
+                            </div>
+                            <div class="heading">
+                                <h6>$ 1000</h6>
+                            </div>
+                            <div class="total-reward">
+                                <div class="heading">
+                                    <span class="para">Total Rewards</span>
+                                </div>
+                                <div class="title-common">
+                                    <p>$ 2000</p>
+                                </div>
+                            </div>
+                            <div class="title-price">
+                                <p>07 Feb, 2022 . 01:35 PM</p>
+                            </div>
+                        </div>
+                        <div class="single-history">
+                            <div class="history-title">
+                                <div class="title-common">
+                                    <p>Deposite</p>
+                                </div>
+                                <div class="title-price">
+                                    <p class="darkgreen"><img src="images/credit.png" alt=""> Credited</p>
+                                </div>
+                            </div>
+                            <div class="heading">
+                                <h6>$ 1000</h6>
+                            </div>
+                            <div class="title-price">
+                                <p>07 Feb, 2022 . 01:35 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer section-->
+        <div class="copyright">
+            <div class="description">
+                <p>©2022 NxtTokens. ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+        <!--side menubar mobile-->
+        <div class="side-menu-bar home">
+            <div class="side-menu-top">
+                <div class="close-btn">
+                    <a href="javascript:void(0)">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="side-menu-bottom">
+                <div class="menu-bar-section">
+                    <ul>
+                        <li>
+                            <a href="" class="active">home</a>
+                        </li>
+                        <li>
+                            <a href="">Market</a>
+                        </li>
+                        <li>
+                            <a href="#menu3" class=" collapsed" data-toggle="collapse" aria-expanded="false"> Academy <i class="fas fa-caret-down"></i></a>
+                            <div class="collapse" id="menu3">
+                                <a href="#"  data-parent="#menu3">3.1</a>
+                                <a href="#"  data-parent="#menu3">3.2 </a>
+                                <a href="#"  data-parent="#menu3">3.3</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Manage</a>
+                        </li>
+                        <li>
+                            <a href="">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script>
+            const select = document.querySelectorAll('.selectBtn');
+            const option = document.querySelectorAll('.option');
+            let index = 1;
+
+            select.forEach(a => {
+                a.addEventListener('click', b => {
+                    const next = b.target.nextElementSibling;
+                    next.classList.toggle('toggle');
+                    next.style.zIndex = index++;
+                })
+            })
+            option.forEach(a => {
+                a.addEventListener('click', b => {
+                    b.target.parentElement.classList.remove('toggle');
+                    
+                    const parent = b.target.closest('.select').children[0];
+                    parent.setAttribute('data-type', b.target.getAttribute('data-type'));
+                    parent.innerText = b.target.innerText;
+                })
+            })
+        </script>
+        <script>
+            $(".button-section a").click(function(){
+            if ($( ".date-selection" ).hasClass('show')) {
+                $( ".date-selection" ).removeClass( 'show');
+            } else {
+                $( ".date-selection" ).addClass( 'show');
+            }
+            });
+        </script>
+        <script>
+            $(".menu-bar a").click(function(){
+                $(".side-menu-bar").addClass("show");
+            })
+            $(".close-btn a").click(function(){
+                $(".side-menu-bar").removeClass("show");
+            })
+            $("#trans-type").select2();
+        </script>
+    </body>
+</html>

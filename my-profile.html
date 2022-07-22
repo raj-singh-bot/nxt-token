@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/stylefont.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="common-header">
+            <div class="container">
+                <div class="menu ">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="logo-section">
+                            <a href="home.html"><img src="images/logo-white (2).png" alt="logo" class="img-fluid"></a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                        </button>
+                        <div class="navbar-right">
+                            <div class="login-section">
+                                <div class="button-section">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)" class="notify"><svg  viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M19.8333 9.24077C19.8333 7.5316 19.1544 5.89243 17.9458 4.68386C16.7372 3.47529 15.0981 2.79633 13.3889 2.79633C11.6797 2.79633 10.0406 3.47529 8.83199 4.68386C7.62342 5.89243 6.94445 7.5316 6.94445 9.24077C6.94445 16.7593 3.72223 18.9074 3.72223 18.9074H23.0556C23.0556 18.9074 19.8333 16.7593 19.8333 9.24077Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M15.2471 23.2037C15.0582 23.5293 14.7872 23.7995 14.4611 23.9873C14.135 24.1751 13.7652 24.274 13.3889 24.274C13.0126 24.274 12.6428 24.1751 12.3167 23.9873C11.9906 23.7995 11.7196 23.5293 11.5308 23.2037" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg> <span>Notifications</span>
+                                                <div class="shape-notification"></div>
+                                            </a>
+                                        </li>
+                                        <li class="active">
+                                            <a href=""><svg  viewBox="0 0 32 32"  xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16 1.5C7.99165 1.5 1.5 7.99165 1.5 16C1.5 24.0084 7.99165 30.5 16 30.5C24.0084 30.5 30.5 24.0084 30.5 16C30.5 7.99165 24.0084 1.5 16 1.5Z" stroke="#01A19D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M4.79297 25.2019C4.79297 25.2019 8.02502 21.0752 16 21.0752C23.975 21.0752 27.2085 25.2019 27.2085 25.2019" stroke="#01A19D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M16 15.9998C17.1537 15.9998 18.2602 15.5415 19.0759 14.7257C19.8917 13.9099 20.35 12.8035 20.35 11.6498C20.35 10.4961 19.8917 9.38967 19.0759 8.57389C18.2602 7.75811 17.1537 7.2998 16 7.2998C14.8463 7.2998 13.7399 7.75811 12.9241 8.57389C12.1083 9.38967 11.65 10.4961 11.65 11.6498C11.65 12.8035 12.1083 13.9099 12.9241 14.7257C13.7399 15.5415 14.8463 15.9998 16 15.9998V15.9998Z" stroke="#01A19D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>My Profile</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-bar">
+                                <a href="javascript:void(0)">
+                                    <i class="icon-menubar"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!--notification section-->
+            <div class="notification-section">
+                <div class="section-header">
+                    <div class="title-common">
+                        <p>Notifications</p>
+                    </div>
+                    <div class="close-btn">
+                        <a href="javascript:void(0)"><i class="fas fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="content-section scrollbar" id="style-1">
+                    <ul class="notification-list">
+                        <li>
+                            <div class="single-notification">
+                                <div class="notification-header">
+                                    <div class="title-price">
+                                        <p><b>Get your ETH rewards now!</b></p>
+                                    </div>
+                                    <div class="button-section">
+                                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-section">
+                                    <div class="title-price">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                    </div>
+                                    <span class="date">03-02-2022</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-notification">
+                                <div class="notification-header">
+                                    <div class="title-price">
+                                        <p><b>Get your ETH rewards now!</b></p>
+                                    </div>
+                                    <div class="button-section">
+                                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-section">
+                                    <div class="title-price">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                    </div>
+                                    <span class="date">03-02-2022</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-notification">
+                                <div class="notification-header">
+                                    <div class="title-price">
+                                        <p><b>Get your ETH rewards now!</b></p>
+                                    </div>
+                                    <div class="button-section">
+                                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-section">
+                                    <div class="title-price">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                    </div>
+                                    <span class="date">03-02-2022</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-notification">
+                                <div class="notification-header">
+                                    <div class="title-price">
+                                        <p><b>Get your ETH rewards now!</b></p>
+                                    </div>
+                                    <div class="button-section">
+                                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-section">
+                                    <div class="title-price">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                    </div>
+                                    <span class="date">03-02-2022</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--my-profile-section-->
+        <div class="my-profile-section">
+            <div class="container">
+                <div class="col-lg-6 mx-auto">
+                    <div class="profile-form">
+                        <div class="heading">
+                            <h5>My Profile</h5>
+                        </div>
+                        <form>
+                            <div class="col-ting">
+                                <div class="control-group file-upload" id="file-upload1">
+                                  <div class="image-box text-center">
+                                      <div class="image-section">
+                                          <img src="images/profile.png" alt="" class="img-fluid">
+                                      </div>
+                                        <img src="" alt="">
+                                    </div>
+                                  <div class="controls" style="display: none;">
+                                        <input type="file" name="contact_image_1"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-content">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputname4" placeholder="First Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputlastname4" placeholder="Last Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                </div>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>+91</option>
+                                            <option>...</option>
+                                          </select>
+                                      </div>
+                                    </div>
+                                    <input type="number" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Contact No.">
+                                </div>
+                                <div class="form-group">
+                                    <select id="country" class="js-states form-control">
+                                        <option>Country</option>
+                                        <option>India</option>
+                                        <option>Aus</option>
+                                        <option>US</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select id="state" class="js-states form-control">
+                                        <option>State</option>
+                                        <option>India</option>
+                                        <option>Aus</option>
+                                        <option>US</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select id="city" class="js-states form-control">
+                                        <option>City</option>
+                                        <option>India</option>
+                                        <option>Aus</option>
+                                        <option>US</option>
+                                    </select>
+                                </div>
+                                <div class="button-section">
+                                    <a href="javascript:void(0)" class="rect-btn-common changes">Update Profile</a>
+                                </div>
+                                <div class="popup-msg">
+                                    <div class="description-common">
+                                        <p>Changes Updated</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--side menubar mobile-->
+        <div class="side-menu-bar home">
+            <div class="side-menu-top">
+                <div class="close-btn">
+                    <a href="javascript:void(0)">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="side-menu-bottom">
+                <div class="menu-bar-section">
+                    <ul>
+                        <li>
+                            <a href="" class="active">home</a>
+                        </li>
+                        <li>
+                            <a href="">Market</a>
+                        </li>
+                        <li>
+                            <a href="#menu3" class=" collapsed" data-toggle="collapse" aria-expanded="false"> Academy <i class="fas fa-caret-down"></i></a>
+                            <div class="collapse" id="menu3">
+                                <a href="#"  data-parent="#menu3">3.1</a>
+                                <a href="#"  data-parent="#menu3">3.2 </a>
+                                <a href="#"  data-parent="#menu3">3.3</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Manage</a>
+                        </li>
+                        <li>
+                            <a href="">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--footer section-->
+        <div class="copyright">
+            <div class="description">
+                <p>©2022 NxtTokens. ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script>
+            $('.button-section .changes').click(function(){
+                $(".popup-msg").show();
+                setTimeout(function() { $(".popup-msg").hide(); }, 2000);
+            })
+        </script>
+        <script>
+            $(".button-section .notify").click(function(){
+                if ($( ".notification-section" ).hasClass('show')) {
+                    $( ".notification-section" ).removeClass( 'show');
+                } else {
+                    $( ".notification-section" ).addClass( 'show');
+                }
+                if($(this).hasClass('active')){
+                    $(this).removeClass('active')
+                } else {
+                    $(this).addClass('active')
+                }
+            })
+            $(".close-btn a").click(function(){
+                $(".notification-section").removeClass("show");
+                $(".notify").removeClass("active");
+            })
+        </script>
+        <script>
+            $(".menu-bar a").click(function(){
+                $(".side-menu-bar").addClass("show");
+            })
+            $(".close-btn a").click(function(){
+                $(".side-menu-bar").removeClass("show");
+            })
+            $("#city").select2();
+            $("#state").select2();
+            $("#country").select2();
+            
+        </script>
+        <script>
+            $(".image-box").click(function(event) {
+                var previewImg = $(this).children("img");
+
+                $(this)
+                    .siblings()
+                    .children("input")
+                    .trigger("click");
+
+                $(this)
+                    .siblings()
+                    .children("input")
+                    .change(function() {
+                        var reader = new FileReader();
+
+                        reader.onload = function(e) {
+                            var urll = e.target.result;
+                            $(previewImg).attr("src", urll);
+                            previewImg.parent().css("background", "transparent");
+                            previewImg.show();
+                            previewImg.siblings(".image-section").hide();
+                        };
+                        reader.readAsDataURL(this.files[0]);
+                    });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/stylefont.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="common-header">
+            <div class="container">
+                <div class="menu ">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="logo-section">
+                            <a href=""><img src="images/logo-white (2).png" alt="logo" class="img-fluid"></a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                        </button>
+                        
+                        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" >market</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">academy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">manage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">help</a>
+                                </li>
+                            </ul>
+                            
+                        </div> -->
+                        <div class="navbar-right">
+                            <div class="login-section">
+                                <div class="button-section">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)" class="notify"><svg  viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M19.8333 9.24077C19.8333 7.5316 19.1544 5.89243 17.9458 4.68386C16.7372 3.47529 15.0981 2.79633 13.3889 2.79633C11.6797 2.79633 10.0406 3.47529 8.83199 4.68386C7.62342 5.89243 6.94445 7.5316 6.94445 9.24077C6.94445 16.7593 3.72223 18.9074 3.72223 18.9074H23.0556C23.0556 18.9074 19.8333 16.7593 19.8333 9.24077Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M15.2471 23.2037C15.0582 23.5293 14.7872 23.7995 14.4611 23.9873C14.135 24.1751 13.7652 24.274 13.3889 24.274C13.0126 24.274 12.6428 24.1751 12.3167 23.9873C11.9906 23.7995 11.7196 23.5293 11.5308 23.2037" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg> <span>Notifications</span>
+                                                <div class="shape-notification"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="my-profile.html"><svg  viewBox="0 0 32 32"  xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16 1.5C7.99165 1.5 1.5 7.99165 1.5 16C1.5 24.0084 7.99165 30.5 16 30.5C24.0084 30.5 30.5 24.0084 30.5 16C30.5 7.99165 24.0084 1.5 16 1.5Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M4.79297 25.2017C4.79297 25.2017 8.02502 21.075 16 21.075C23.975 21.075 27.2085 25.2017 27.2085 25.2017" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M16 16C17.1537 16 18.2602 15.5417 19.0759 14.7259C19.8917 13.9102 20.35 12.8037 20.35 11.65C20.35 10.4963 19.8917 9.38989 19.0759 8.5741C18.2602 7.75832 17.1537 7.30002 16 7.30002C14.8463 7.30002 13.7399 7.75832 12.9241 8.5741C12.1083 9.38989 11.65 10.4963 11.65 11.65C11.65 12.8037 12.1083 13.9102 12.9241 14.7259C13.7399 15.5417 14.8463 16 16 16V16Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>My Profile</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-bar">
+                                <a href="javascript:void(0)">
+                                    <i class="icon-menubar"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!--notification section-->
+            <div class="notification-section">
+                <div class="section-header">
+                    <div class="title-common">
+                        <p>Notifications</p>
+                    </div>
+                    <div class="close-btn">
+                        <a href="javascript:void(0)"><i class="fas fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="content-section scrollbar" id="style-1">
+                    <ul class="notification-list">
+                        <li>
+                            <div class="single-notification">
+                                <div class="notification-header">
+                                    <div class="title-price">
+                                        <p><b>Get your ETH rewards now!</b></p>
+                                    </div>
+                                    <div class="button-section">
+                                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-section">
+                                    <div class="title-price">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                    </div>
+                                    <span class="date">03-02-2022</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-notification">
+                                <div class="notification-header">
+                                    <div class="title-price">
+                                        <p><b>Get your ETH rewards now!</b></p>
+                                    </div>
+                                    <div class="button-section">
+                                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-section">
+                                    <div class="title-price">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                    </div>
+                                    <span class="date">03-02-2022</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-notification">
+                                <div class="notification-header">
+                                    <div class="title-price">
+                                        <p><b>Get your ETH rewards now!</b></p>
+                                    </div>
+                                    <div class="button-section">
+                                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-section">
+                                    <div class="title-price">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                    </div>
+                                    <span class="date">03-02-2022</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-notification">
+                                <div class="notification-header">
+                                    <div class="title-price">
+                                        <p><b>Get your ETH rewards now!</b></p>
+                                    </div>
+                                    <div class="button-section">
+                                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-section">
+                                    <div class="title-price">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                    </div>
+                                    <span class="date">03-02-2022</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--portfolio-section-->
+        <div class="portfolio-section">
+            <div class="container">
+                <div class="portfolio-content">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="single-portfolio pink">
+                                    <div class="image-section">
+                                        <img src="images/portfolio1.png" alt="" class="img-fluid">
+                                    </div>
+                                    <span>Investment Balance</span>
+                                    <div class="title">
+                                        <p>$ 3.2K</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="single-portfolio purple">
+                                    <div class="image-section">
+                                        <img src="images/portfolio2.png" alt="" class="img-fluid">
+                                    </div>
+                                    <span>Earned Points</span>
+                                    <div class="title">
+                                        <p>3,256</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="single-portfolio green">
+                                    <div class="image-section">
+                                        <img src="images/portfolio3.png" alt="" class="img-fluid">
+                                    </div>
+                                    <span>ROI Cumulative</span>
+                                    <div class="title">
+                                        <p>1.6</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="single-portfolio white-chocolate">
+                                    <div class="image-section">
+                                        <img src="images/portfolio4.png" alt="" class="img-fluid">
+                                    </div>
+                                    <span>Total Earnings</span>
+                                    <div class="title">
+                                        <p>$ 9.6K</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--featured section-->
+        <div class="featured-section">
+            <div class="container">
+                <div class="featured-content">
+                    <div class="title-common">
+                        <p>Featured</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="single-featured">
+                                <a href="" data-toggle="modal" data-target="#exampleModalCenter">
+                                    <div class="image-section">
+                                        <img src="images/user-plus.png" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <span>Invite</span>
+                            </div>
+                        </li>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter"  role="dialog" >
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="close-btn">
+                                    <a href="" data-dismiss="modal"><i class="fas fa-times"></i></a>
+                                </div>
+                                <div class="logo-section">
+                                    <img src="images/logo-white (2).png" alt="" class="img-fluid">
+                                </div>
+                                <div class="description-common">
+                                    <p>Join the Blockchain platform trusted by millions 
+                                        of customers.</p>
+                                </div>
+                                <div class="qr-section">
+                                    <div class="image-section">
+                                        <img src="images/qr-code.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="invitation">
+                                    <div class="description-common">
+                                        <p>Invitation Code</p>
+                                    </div>
+                                    <span class="invite-code">user_name123</span>
+                                </div>
+                                <div class="button-section">
+                                    <a href="javascript:void(0)" class="common-btn-rect copy"> 
+                                        <img src="images/copy.svg" alt="" class="img-fluid">Copy Link
+                                    </a>
+                                    <a href="javascript:void(0)" class="common-btn-rect save"> 
+                                        <img src="images/download-cloud.svg" alt="" class="img-fluid">Save
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="popup-msg">
+                                <div class="description-common">
+                                    <p>Link Copied to Clipboard</p>
+                                </div>
+                            </div>
+                            <div class="popup-msg2">
+                                <div class="description-common">
+                                    <p>Image Saved</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        
+                        <li>
+                            <div class="single-featured">
+                                <a href="topup.html"> 
+                                    <div class="image-section">
+                                        <img src="images/wallet.png" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <span>Topup</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-featured">
+                                <a href="referral.html">
+                                    <div class="image-section">
+                                        <img src="images/user-icon.png" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <span>Referral</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-featured">
+                                <a href="reports.html">
+                                    <div class="image-section">
+                                        <img src="images/note.png" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <span>Reports</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-featured">
+                                <a href="deposit.html">
+                                    <div class="image-section">
+                                        <img src="images/piggy.png" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <span>Deposit</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-featured">
+                                <a href="finance.html">
+                                    <div class="image-section">
+                                        <img src="images/finance.png" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <span>Finance</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single-featured">
+                                <a href="withdraw.html">
+                                    <div class="image-section">
+                                        <img src="images/withdraw.png" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <span>Withdraw</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--image-slider-->
+        <div class="landing-page-slider">
+            <div class="container">
+                <div class="image-slider">
+                    <div class="image-section">
+                        <img src="images/landing.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="image-section">
+                        <img src="images/landing.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="image-section">
+                        <img src="images/landing.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="image-section">
+                        <img src="images/landing.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--tips section-->
+        <div class="tips-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="title-common">
+                            <p>Tips for You</p>
+                        </div>
+                        <div class="tips-content">
+                            <div class="single-tips">
+                                <div class="tips-header">
+                                    <div class="heading-common">
+                                        <p>How to Start a Career in Web 3.0?</p>
+                                    </div>
+                                    <div class="icon-section">
+                                        <a href="#"><i class="fas fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-common">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                </div>
+                            </div>
+                            <div class="single-tips">
+                                <div class="tips-header">
+                                    <div class="heading-common">
+                                        <p>Alchemix - Leading the Future of Yeild Tokenization Protocol</p>
+                                    </div>
+                                    <div class="icon-section">
+                                        <a href="#"><i class="fas fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-common">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                </div>
+                            </div>
+                            <div class="single-tips">
+                                <div class="tips-header">
+                                    <div class="heading-common">
+                                        <p>Alchemix - Leading the Future of Yeild Tokenization Protocol</p>
+                                    </div>
+                                    <div class="icon-section">
+                                        <a href="#"><i class="fas fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-common">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                </div>
+                            </div>
+                            <div class="single-tips">
+                                <div class="tips-header">
+                                    <div class="heading-common">
+                                        <p>Alchemix - Leading the Future of Yeild Tokenization Protocol</p>
+                                    </div>
+                                    <div class="icon-section">
+                                        <a href="#"><i class="fas fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="description-common">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat mi varius velit fermentum, vitae vitae, ligula ut p...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--side menubar mobile-->
+        <div class="side-menu-bar home">
+            <div class="side-menu-top">
+                <div class="close-btn">
+                    <a href="javascript:void(0)">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="side-menu-bottom">
+                <div class="menu-bar-section">
+                    <ul>
+                        <li>
+                            <a href="" class="active">home</a>
+                        </li>
+                        <li>
+                            <a href="">Market</a>
+                        </li>
+                        <li>
+                            <a href="#menu3" class=" collapsed" data-toggle="collapse" aria-expanded="false"> Academy <i class="fas fa-caret-down"></i></a>
+                            <div class="collapse" id="menu3">
+                                <a href="#"  data-parent="#menu3">3.1</a>
+                                <a href="#"  data-parent="#menu3">3.2 </a>
+                                <a href="#"  data-parent="#menu3">3.3</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Manage</a>
+                        </li>
+                        <li>
+                            <a href="">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--footer section-->
+        <div class="copyright">
+            <div class="description">
+                <p>©2022 NxtTokens. ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script>
+            $('.image-slider').slick({
+                infinite: true,
+                arrows:false,
+                dots:true,
+                autoplay:true
+            });
+        </script>
+        <script>
+            $('.button-section .copy').click(function(){
+                $(".popup-msg").show();
+                setTimeout(function() { $(".popup-msg").hide(); }, 2000);
+            })
+            $('.button-section .save').click(function(){
+                $(".popup-msg2").show();
+                setTimeout(function() { $(".popup-msg2").hide(); }, 2000);
+            })
+        </script>
+        <script>
+            $(".button-section .notify").click(function(){
+                if ($( ".notification-section" ).hasClass('show')) {
+                    $( ".notification-section" ).removeClass( 'show');
+                } else {
+                    $( ".notification-section" ).addClass( 'show');
+                }
+                if($(this).hasClass('active')){
+                    $(this).removeClass('active')
+                } else {
+                    $(this).addClass('active')
+                }
+            })
+            $(".close-btn a").click(function(){
+                $(".notification-section").removeClass("show");
+                $(".notify").removeClass("active");
+            })
+        </script>
+        <script>
+            $(".menu-bar a").click(function(){
+                $(".side-menu-bar").addClass("show");
+            })
+            $(".close-btn a").click(function(){
+                $(".side-menu-bar").removeClass("show");
+            })
+        </script>
+    </body>
+</html>

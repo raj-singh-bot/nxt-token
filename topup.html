@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/stylefont.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="common-header topup-navbar">
+            <div class="container">
+                <div class="menu ">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="logo-section">
+                            <a href="home.html"><img src="images/logo-white (2).png" alt="logo" class="img-fluid"></a>
+                        </div>
+                        <div class="navbar-right">
+                            <div class="login-section">
+                                <div class="button-section">
+                                    <a href="history.html"><svg  viewBox="0 0 30 30"  xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.21986 0.5L3.38296 0.514497C3.56401 0.547573 3.73069 0.634997 3.86083 0.765135C3.99097 0.895273 4.07839 1.06196 4.11147 1.243L4.12596 1.4061V5.41469C6.29452 2.95507 9.23284 1.30324 12.4612 0.728896C15.6896 0.154549 19.0174 0.691607 21.9012 2.25239C24.785 3.81317 27.0545 6.30548 28.3392 9.32242C29.6239 12.3394 29.8479 15.7027 28.9746 18.8634C28.1013 22.024 26.1823 24.7953 23.531 26.7247C20.8796 28.6541 17.6525 29.6277 14.3765 29.4866C11.1004 29.3454 7.969 28.0978 5.49343 25.9475C3.01786 23.7972 1.34438 20.8711 0.746209 17.647C0.552544 16.4613 0.47365 15.2597 0.510623 14.0589C0.531398 13.8269 0.6407 13.6118 0.815841 13.4583C0.990983 13.3048 1.21851 13.2246 1.45121 13.2344C1.68391 13.2442 1.9039 13.3432 2.06552 13.5109C2.22714 13.6786 2.31799 13.9021 2.3192 14.135C2.28809 15.1993 2.35726 16.2641 2.52579 17.3154C3.06006 20.1974 4.57588 22.8055 6.81557 24.6963C9.05527 26.5871 11.8806 27.6439 14.8114 27.6872C17.7422 27.7305 20.5975 26.7575 22.8921 24.9336C25.1866 23.1098 26.7788 20.5476 27.3979 17.6826C28.017 14.8176 27.6249 11.8267 26.2882 9.21811C24.9515 6.60955 22.7527 4.54437 20.0656 3.37361C17.3784 2.20286 14.3688 1.99877 11.5482 2.79605C8.72759 3.59333 6.27013 5.34276 4.59351 7.74699L10.4687 7.7488L10.6318 7.7633C10.8407 7.80113 11.0297 7.91112 11.1658 8.07407C11.3019 8.23702 11.3764 8.44259 11.3764 8.65491C11.3764 8.86722 11.3019 9.07279 11.1658 9.23574C11.0297 9.39869 10.8407 9.50868 10.6318 9.54651L10.4687 9.56101H3.21986L3.05677 9.54651C2.87572 9.51343 2.70904 9.42601 2.5789 9.29587C2.44876 9.16573 2.36134 8.99905 2.32826 8.818L2.31376 8.65491V1.4061L2.32826 1.243C2.36134 1.06196 2.44876 0.895273 2.5789 0.765135C2.70904 0.634997 2.87572 0.547573 3.05677 0.514497L3.21986 0.5ZM14.0931 7.7488L14.2562 7.7633C14.4372 7.79638 14.6039 7.8838 14.734 8.01394C14.8642 8.14408 14.9516 8.31076 14.9847 8.49181L14.9992 8.65491V15.911H18.6236L18.7867 15.9255C18.9956 15.9633 19.1846 16.0733 19.3207 16.2362C19.4568 16.3992 19.5313 16.6047 19.5313 16.8171C19.5313 17.0294 19.4568 17.2349 19.3207 17.3979C19.1846 17.5608 18.9956 17.6708 18.7867 17.7087L18.6236 17.7232H14.0931L13.93 17.7087C13.7489 17.6756 13.5822 17.5882 13.4521 17.458C13.322 17.3279 13.2345 17.1612 13.2015 16.9802L13.187 16.8171V8.65491L13.2015 8.49181C13.2345 8.31076 13.322 8.14408 13.4521 8.01394C13.5822 7.8838 13.7489 7.79638 13.93 7.7633L14.0931 7.7488Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+                                        </svg>
+                                         <span>History</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="menu-bar ">
+                                <a href="javascript:void(0)">
+                                    <i class="icon-menubar"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </nav>
+                </div>
+            </div>
+        </header>
+       <!--topup section-->
+        <div class="topup-section">
+            <div class="container">
+                <div class="common-section-header">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="topup-header">
+                                <div class="heading">
+                                    <h5>Topup Plans</h5>
+                                    <span class="para">Cost-Effective, Full Service, High Security</span>
+                                </div>
+                            </div>
+                            <div class="balance">
+                                <div class="title-price">
+                                    <p>Total Balance</p>
+                                </div>
+                                <div class="title">
+                                    <p>$ 3,256</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="button-section">
+                                <a href="" class="rect-btn-common">Add Deposite</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--topup plans-->
+        <div class="topup-plans-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="single-topup-plans pink">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="title-common">
+                                        <p>Diamond</p>
+                                    </div>
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="fas fa-angle-right"></i></a>
+                                  </h4>
+                                </div>
+                                <div class="pricing-section">
+                                    <div class="total-price">
+                                        <div class="title-price">
+                                            <p>Total Price</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 1000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="total-rewards">
+                                        <div class="title-price">
+                                            <p>Total Rewards</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 2000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="content-section">
+                                            <div class="title-common">
+                                                <p>Details</p>
+                                            </div>
+                                            <div class="quantity">
+                                                <div class="title-price">
+                                                    <p>Quantity Per Unit</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$1000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="cart-count">
+                                                <div class="title-price">
+                                                    <p>Purchase Quantity</p>
+                                                </div>
+                                                <form action="">
+                                                    <p class="qty">
+                                                        <button class="qtyminus" aria-hidden="true">&minus;</button>
+                                                        <input type="text" name="qty" id="qty" min="01" max="10" step="1" value="1">
+                                                        <button class="qtyplus" aria-hidden="true">&plus;</button>
+                                                    </p>
+                                                </form>		
+                                            </div>
+                                            <div class="order-amount">
+                                                <div class="title-price">
+                                                    <p>Order Amount</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$5000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="wallet-checkbox">
+                                                <div class="form-group form-check">
+                                                    <label class="form-check-label custom-checkbox" for="exampleCheck1">Use Offset Wallet
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="button-section">
+                                                <a href="" class="rect-btn-common">Purchase it!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="single-topup-plans green">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="title-common">
+                                        <p>Diamond</p>
+                                    </div>
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="fas fa-angle-right"></i></a>
+                                  </h4>
+                                </div>
+                                <div class="pricing-section">
+                                    <div class="total-price">
+                                        <div class="title-price">
+                                            <p>Total Price</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 1000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="total-rewards">
+                                        <div class="title-price">
+                                            <p>Total Rewards</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 2000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="content-section">
+                                            <div class="title-common">
+                                                <p>Details</p>
+                                            </div>
+                                            <div class="quantity">
+                                                <div class="title-price">
+                                                    <p>Quantity Per Unit</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$1000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="cart-count">
+                                                <div class="title-price">
+                                                    <p>Purchase Quantity</p>
+                                                </div>
+                                                <form action="">
+                                                    <p class="qty">
+                                                        <button class="qtyminus" aria-hidden="true">&minus;</button>
+                                                        <input type="text" name="qty" id="qty" min="01" max="10" step="1" value="1">
+                                                        <button class="qtyplus" aria-hidden="true">&plus;</button>
+                                                    </p>
+                                                </form>		
+                                            </div>
+                                            <div class="order-amount">
+                                                <div class="title-price">
+                                                    <p>Order Amount</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$5000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="wallet-checkbox">
+                                                <div class="form-group form-check">
+                                                    <label class="form-check-label custom-checkbox" for="exampleCheck2">Use Offset Wallet
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="button-section">
+                                                <a href="" class="rect-btn-common">Purchase it!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="single-topup-plans white-chocolate">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="title-common">
+                                        <p>Diamond</p>
+                                    </div>
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i class="fas fa-angle-right"></i></a>
+                                  </h4>
+                                </div>
+                                <div class="pricing-section">
+                                    <div class="total-price">
+                                        <div class="title-price">
+                                            <p>Total Price</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 1000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="total-rewards">
+                                        <div class="title-price">
+                                            <p>Total Rewards</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 2000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="content-section">
+                                            <div class="title-common">
+                                                <p>Details</p>
+                                            </div>
+                                            <div class="quantity">
+                                                <div class="title-price">
+                                                    <p>Quantity Per Unit</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$1000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="cart-count">
+                                                <div class="title-price">
+                                                    <p>Purchase Quantity</p>
+                                                </div>
+                                                <form action="">
+                                                    <p class="qty">
+                                                        <button class="qtyminus" aria-hidden="true">&minus;</button>
+                                                        <input type="text" name="qty" id="qty" min="01" max="10" step="1" value="1">
+                                                        <button class="qtyplus" aria-hidden="true">&plus;</button>
+                                                    </p>
+                                                </form>		
+                                            </div>
+                                            <div class="order-amount">
+                                                <div class="title-price">
+                                                    <p>Order Amount</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$5000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="wallet-checkbox">
+                                                <div class="form-group form-check">
+                                                    <label class="form-check-label custom-checkbox" for="exampleCheck3">Use Offset Wallet
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="button-section">
+                                                <a href="" class="rect-btn-common">Purchase it!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="single-topup-plans purple">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="title-common">
+                                        <p>Diamond</p>
+                                    </div>
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4"><i class="fas fa-angle-right"></i></a>
+                                  </h4>
+                                </div>
+                                <div class="pricing-section">
+                                    <div class="total-price">
+                                        <div class="title-price">
+                                            <p>Total Price</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 1000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="total-rewards">
+                                        <div class="title-price">
+                                            <p>Total Rewards</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 2000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse4" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="content-section">
+                                            <div class="title-common">
+                                                <p>Details</p>
+                                            </div>
+                                            <div class="quantity">
+                                                <div class="title-price">
+                                                    <p>Quantity Per Unit</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$1000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="cart-count">
+                                                <div class="title-price">
+                                                    <p>Purchase Quantity</p>
+                                                </div>
+                                                <form action="">
+                                                    <p class="qty">
+                                                        <button class="qtyminus" aria-hidden="true">&minus;</button>
+                                                        <input type="text" name="qty" id="qty" min="01" max="10" step="1" value="1">
+                                                        <button class="qtyplus" aria-hidden="true">&plus;</button>
+                                                    </p>
+                                                </form>		
+                                            </div>
+                                            <div class="order-amount">
+                                                <div class="title-price">
+                                                    <p>Order Amount</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$5000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="wallet-checkbox">
+                                                <div class="form-group form-check">
+                                                    <label class="form-check-label custom-checkbox" for="exampleCheck4">Use Offset Wallet
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="button-section">
+                                                <a href="" class="rect-btn-common">Purchase it!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="single-topup-plans Azureish-White">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="title-common">
+                                        <p>Diamond</p>
+                                    </div>
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5"><i class="fas fa-angle-right"></i></a>
+                                  </h4>
+                                </div>
+                                <div class="pricing-section">
+                                    <div class="total-price">
+                                        <div class="title-price">
+                                            <p>Total Price</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 1000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="total-rewards">
+                                        <div class="title-price">
+                                            <p>Total Rewards</p>
+                                        </div>
+                                        <div class="heading">
+                                            <h6>$ 2000</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapse5" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="content-section">
+                                            <div class="title-common">
+                                                <p>Details</p>
+                                            </div>
+                                            <div class="quantity">
+                                                <div class="title-price">
+                                                    <p>Quantity Per Unit</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$1000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="cart-count">
+                                                <div class="title-price">
+                                                    <p>Purchase Quantity</p>
+                                                </div>
+                                                <form action="">
+                                                    <p class="qty">
+                                                        <button class="qtyminus" aria-hidden="true">&minus;</button>
+                                                        <input type="text" name="qty" id="qty" min="01" max="10" step="1" value="1">
+                                                        <button class="qtyplus" aria-hidden="true">&plus;</button>
+                                                    </p>
+                                                </form>		
+                                            </div>
+                                            <div class="order-amount">
+                                                <div class="title-price">
+                                                    <p>Order Amount</p>
+                                                </div>
+                                                <div class="title-price">
+                                                    <p><b>$5000</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="wallet-checkbox">
+                                                <div class="form-group form-check">
+                                                    <label class="form-check-label custom-checkbox" for="exampleCheck5">Use Offset Wallet
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="button-section">
+                                                <a href="" class="rect-btn-common">Purchase it!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer section-->
+        <div class="copyright">
+            <div class="description">
+                <p>©2022 NxtTokens. ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+        <!--side menubar mobile-->
+        <div class="side-menu-bar home">
+            <div class="side-menu-top">
+                <div class="close-btn">
+                    <a href="javascript:void(0)">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="side-menu-bottom">
+                <div class="menu-bar-section">
+                    <ul>
+                        <li>
+                            <a href="" class="active">home</a>
+                        </li>
+                        <li>
+                            <a href="">Market</a>
+                        </li>
+                        <li>
+                            <a href="#menu3" class=" collapsed" data-toggle="collapse" aria-expanded="false"> Academy <i class="fas fa-caret-down"></i></a>
+                            <div class="collapse" id="menu3">
+                                <a href="#"  data-parent="#menu3">3.1</a>
+                                <a href="#"  data-parent="#menu3">3.2 </a>
+                                <a href="#"  data-parent="#menu3">3.3</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Manage</a>
+                        </li>
+                        <li>
+                            <a href="">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script>
+            var input = document.querySelector('#qty');
+            var btnminus = document.querySelector('.qtyminus');
+            var btnplus = document.querySelector('.qtyplus');
+
+            if (input !== undefined && btnminus !== undefined && btnplus !== undefined && input !== null && btnminus !== null && btnplus !== null) {
+                
+                var min = Number(input.getAttribute('min'));
+                var max = Number(input.getAttribute('max'));
+                var step = Number(input.getAttribute('step'));
+
+                function qtyminus(e) {
+                    var current = Number(input.value);
+                    var newval = (current - step);
+                    if(newval < min) {
+                        newval = min;
+                    } else if(newval > max) {
+                        newval = max;
+                    } 
+                    input.value = Number(newval);
+                    e.preventDefault();
+                }
+
+                function qtyplus(e) {
+                    var current = Number(input.value);
+                    var newval = (current + step);
+                    if(newval > max) newval = max;
+                    input.value = Number(newval);
+                    e.preventDefault();
+                }
+                    
+                btnminus.addEventListener('click', qtyminus);
+                btnplus.addEventListener('click', qtyplus);
+            
+            }
+        </script>
+        <script>
+            $(".menu-bar a").click(function(){
+                $(".side-menu-bar").addClass("show");
+            })
+            $(".close-btn a").click(function(){
+                $(".side-menu-bar").removeClass("show");
+            })
+        </script>
+    </body>
+</html>
